@@ -25,7 +25,8 @@
             android:gravity="center_vertical|right"
             android:background="#ffc8dcff"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp" />
+            android:paddingRight="5dp"
+            android:nestedScrollingEnabled="false" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -73,7 +74,8 @@
             android:id="@+id/madd"
             android:layout_row="3"
             android:layout_column="0"
-            android:textSize="28sp" />
+            android:textSize="28sp"
+            android:onClick="MPClicked" />
 
         <Button
             android:layout_width="wrap_content"
@@ -82,7 +84,8 @@
             android:id="@+id/msub"
             android:layout_row="3"
             android:layout_column="1"
-            android:textSize="28sp" />
+            android:textSize="28sp"
+            android:onClick="MSClicked" />
 
         <Button
             android:layout_width="wrap_content"
@@ -91,7 +94,8 @@
             android:id="@+id/mr"
             android:layout_row="3"
             android:layout_column="2"
-            android:textSize="28sp" />
+            android:textSize="28sp"
+            android:onClick="MRlicked" />
 
         <Button
             android:layout_width="wrap_content"
@@ -100,7 +104,8 @@
             android:id="@+id/mc"
             android:layout_row="3"
             android:layout_column="3"
-            android:textSize="28sp" />
+            android:textSize="28sp"
+            android:onClick="MCClicked" />
 
         <Button
             android:layout_width="wrap_content"
@@ -110,7 +115,8 @@
             android:layout_row="4"
             android:layout_column="0"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -120,7 +126,8 @@
             android:layout_row="4"
             android:layout_column="1"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -130,7 +137,8 @@
             android:layout_row="4"
             android:layout_column="2"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -150,7 +158,8 @@
             android:layout_row="5"
             android:layout_column="0"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -160,7 +169,8 @@
             android:layout_row="5"
             android:layout_column="1"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -170,7 +180,8 @@
             android:layout_row="5"
             android:layout_column="2"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -190,7 +201,8 @@
             android:layout_row="6"
             android:layout_column="0"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -200,7 +212,8 @@
             android:layout_row="6"
             android:layout_column="1"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -210,7 +223,8 @@
             android:layout_row="6"
             android:layout_column="2"
             android:textSize="28sp"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
@@ -232,7 +246,8 @@
             android:textSize="28sp"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
-            android:onClick="digitClicked" />
+            android:onClick="digitClicked"
+            android:nestedScrollingEnabled="false" />
 
         <Button
             android:layout_width="wrap_content"
